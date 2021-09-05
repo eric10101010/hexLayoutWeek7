@@ -1,0 +1,258 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+body {
+  font-family: 'itali', 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5; }
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle; }
+
+a {
+  text-decoration: none;
+  display: block; }
+
+main {
+  width: 1296px; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Roboto' , sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 20px; }
+
+img {
+  display: block; }
+
+a {
+  text-decoration: none; }
+
+h2 {
+  font-size: 64px; }
+
+h3 {
+  font-size: 24px; }
+
+.pb {
+  padding-bottom: 12px; }
+
+.pb-1 {
+  padding-bottom: 16px; }
+
+.pb-2 {
+  padding-bottom: 32px; }
+
+.pb-3 {
+  padding-bottom: 40px; }
+
+.pb-4 {
+  padding-bottom: 48px; }
+
+.pb-5 {
+  padding-bottom: 68px; }
+
+.pb-6 {
+  padding-bottom: 144px; }
+
+.pb-7 {
+  padding-bottom: 160px; }
+
+.pt-1 {
+  padding-top: 56px; }
+
+.mb-1 {
+  margin-bottom: 56px; }
+
+.pl-1 {
+  padding-left: 12px; }
+
+.pr-1 {
+  padding-right: 12px; }
+
+.container {
+  width: 1200px;
+  margin: 0 auto; }
+
+/*--區塊1--*/
+.banner {
+  height: 958px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week2/banner.png?raw=true) no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.banner-box {
+  color: #fff; }
+
+.banner h1 {
+  font-size: 80px;
+  padding-bottom: 32px; }
+
+.banner span {
+  font-size: 24px;
+  padding-bottom: 40px; }
+
+.icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .icon img {
+    width: 60px; }
+
+/*--區塊2--*/
+.about {
+  width: 412px;
+  margin: 0 auto;
+  font-weight: bold;
+  margin-bottom: 56px;
+  text-align: center; }
+  .about img {
+    width: 384px;
+    height: auto; }
+  .about-title {
+    padding-top: 20px;
+    padding-bottom: 8px; }
+  .about-box {
+    margin-top: 20px;
+    margin-bottom: 28px; }
+
+.born-date {
+  padding-top: 4px; }
+
+.college {
+  border-bottom: 1px solid #000000;
+  padding-bottom: 24px; }
+
+.dot p:before {
+  content: '';
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background-color: #891818;
+  border-radius: 50%;
+  margin-right: 16px;
+  vertical-align: middle; }
+
+/*--區塊3--*/
+.brand {
+  text-align: center;
+  color: #fff;
+  background-color: #000; }
+  .brand h2 {
+    font-size: 50px; }
+
+.brand-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+/*--區塊4--*/
+.work {
+  text-align: center;
+  font-weight: bold; }
+  .work-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+
+/*--區塊5--*/
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 64px 0; }
+
+.contact-info a {
+  color: #fff;
+  font-size: 24px; }
+
+.contact-info a:hover {
+  color: #707070;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s; }
+
+/*# sourceMappingURL=all.css.map */

@@ -1,10 +1,17 @@
----
-title: 首頁
-layout: ./app/layout.ejs
-engine: ejs
-current: index
----
-<div class="banner mb-1">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>首頁</title>
+  <link rel="stylesheet" href="./assets/style/all.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="banner mb-1">
   <div class="banner-box">
 
     <h1 class="pb-2">
@@ -139,3 +146,10 @@ current: index
   <li>Phone Number：<a href="tel:+886-910123456">0910123456</a></li>
 </ul>
 </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+</body>
+
+</html>
